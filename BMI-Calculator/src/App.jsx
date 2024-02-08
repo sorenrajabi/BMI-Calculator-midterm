@@ -11,6 +11,9 @@ function App() {
   const [pounds, setPounds] = useState(0);
   const [bmi, setBMI] = useState(0);
 
+  //The parentheses () are used to declare a function in JavaScript.
+  //In this specific case, it's an arrow function
+  // syntax, which is a concise way to define a function.
   const calculateBMI = () => {
     const heightInInches = feet * 12 + inches;
     const bmiValue = (
